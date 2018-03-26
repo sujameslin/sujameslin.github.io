@@ -770,6 +770,27 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+.block50 {
+  float: left;
+  width: 50%;
+}
+
+.actions {
+  text-align: right;
+}
+
+.btn-follow {
+  position: static !important;
+  display: block;
+  margin-left: calc(100% - 202px);
+  text-align: left;
+}
+
+.bmc-button {
+  margin: 17px auto 0;
+  display: block !important;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -830,7 +851,7 @@ footer a:hover {
     display: inline-block;
     width: auto;
     height: auto;
-    padding: 5px 10px;
+    padding: 14px 10px;
     margin-top: 15px;
     font-size: 13px;
     line-height: 1;
@@ -871,6 +892,17 @@ footer a:hover {
     margin-left: 0;
     content: none;
   }
+  .block50 {
+    float: none !important;
+    width: auto !important;
+  }
+  .btn-follow {
+    margin-left: auto;
+  }
+  .actions {
+    text-align: left;
+    display: flex;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -878,4 +910,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
